@@ -5,6 +5,13 @@
   outline: none;
 }
 
+body {
+	font-weight: 400;
+	font-size: 16px;
+	font-family: "lato", sans-serif;
+	line-height: 1.5;
+}
+
 nav img {
   width: 60px;
   height: 60px;
@@ -24,6 +31,54 @@ ul {
 
 nav {
   background-color: #d4564a;
-  height: 60px;
+  height: 10vh;
   width: 100%;
+}
+
+.first-search {
+  background-color: #d4564a;
+}
+
+.jumbotron {
+  height: 90vh;
+  background: url(../images/surgery.jpg) no-repeat;
+  background-size: cover;
+  padding: 25vh 0;
+  background-position: 50% 50%;
+}
+
+.filter-jumbotron,
+.btn-explore {
+  background-color: rgb(224, 221, 221);
+}
+
+.search {
+  background-color: rgba(236, 228, 228, 0.8);
+}
+
+.search-label,
+.form-group label {
+  font-size: small;
+  font-weight: bold;
+}
+
+.danger-color {
+  color: #d4564a;
+}
+
+.size-1 {
+  font-size: 1em;
+}
+
+.size-2 {
+  font-size: 1.5em;
+}
+
+.nav-logo {
+  width: 10em;
+  height: 3em;
+}
+
+.guide {
+  font-size: 1em;
 }

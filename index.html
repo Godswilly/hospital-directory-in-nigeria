@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
 
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -33,7 +31,7 @@
 <body>
 	<header>
 		<nav class="d-flex flex-column align-items-center flex-md-row justify-content-lg-between px-md-5 py-1">
-			<a href="./index.html">
+			<a class="logo" href="./index.html">
 				<span class="nav-logo text-white"><img src="images/medical.png" alt="hospital-logo"> MEDICALS</span>
 			</a>
 			<ul class="d-flex">
@@ -64,6 +62,82 @@
 			</ul>
 		</nav>
 	</header>
+
+	<main>
+     <div class="jumbotron jumbotron-fluid">
+        <div class="container pt-5">
+          <div class="form-group search py-3 px-2 rounded px-md-5 pt-md-4 pb-md-5">
+            <label for="search" class="search-label text-uppercase">Search by keyword</label>
+            <div class="input-group">
+              <input id="search" type="text" class="form-control rounded-right"/>
+              <div class="input-group-append d-none d-md-block">
+                <a href="./result.html" class="btn first-search text-white">SEARCH</a>
+              </div>
+            </div>
+            <a href="./result.html" class="w-100 my-2 d-md-none btn text-white first-search">SEARCH</a>
+          </div>
+          <button class="btn d-flex justify-content-center my-2 mx-auto btn-explore">
+            How it works
+          </button>
+        </div>
+      </div>
+
+      <section class="container mb-5">
+        <h1 class="text-uppercase font-weight-bold guide text-center danger-color">
+          steps on how to use this application</h1>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="my-2 text-center size-2">
+              <i class="fas fa-search"></i>
+            </div>
+            <div class="text-center my-2">
+              <h6 class="size-1 text-uppercase font-weight-bold">1-search</h6>
+            </div>
+            <p class="text-center px-lg-5 text-muted">
+              It's quite simple and straight forward, all you need to do is
+              enter a keyword in the seach input and hit the search button
+              afterward.
+            </p>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="my-2 text-center size-2">
+              <i class="fas fa-location-arrow"></i>
+            </div>
+            <div class="text-center my-2">
+              <h6 class="size-1 text-uppercase font-weight-bold">2-locate</h6>
+            </div>
+            <p class="text-center px-lg-5 text-muted">
+              Get to see where the hospital is located and the direction in Nigeria that match your search keyword(s).
+            </p>.
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="my-2 text-center size-2">
+              <i class="fa fa-book"></i>
+            </div>
+            <div class="text-center my-2 size-1">
+              <h6 class="size-1 text-uppercase font-weight-bold">3-book appointment</h6>
+            </div>
+            <p class="text-center px-lg-5 text-muted">
+              Feel free to click the details button on each of the search result
+              shown to know more about the different hospitals.
+            </p>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="my-2 text-center size-2">
+              <i class="fa fa-thermometer-full" aria-hidden="true"></i>
+            </div>
+            <div class="text-center my-2">
+              <h6 class="size-1 text-uppercase font-weight-bold">4-get treated</h6>
+            </div>
+            <p class="text-center px-lg-5 text-muted">
+              Visit the hospital and get treated. Get well soon.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      
+	</main>
 
 </body>
 </html>
