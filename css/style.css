@@ -12,10 +12,10 @@ body {
 	line-height: 1.5;
 }
 
-nav img {
+/*nav img {
   width: 60px;
   height: 60px;
-}
+}*/
 
 a {
   text-decoration: none;
@@ -41,7 +41,7 @@ nav {
 
 .jumbotron {
   height: 90vh;
-  background: url(../images/surgery.jpg) no-repeat;
+  background: url(../images/Hospital-Directory-image.jpg) no-repeat;
   background-size: cover;
   padding: 25vh 0;
   background-position: 50% 50%;
@@ -66,6 +66,14 @@ nav {
   color: #d4564a;
 }
 
+.black-color {
+  background-color: #131313;
+}
+
+.line {
+  flex: 1;
+}
+
 .size-1 {
   font-size: 1em;
 }
@@ -75,10 +83,34 @@ nav {
 }
 
 .nav-logo {
-  width: 10em;
-  height: 3em;
+  width: 4rem;
+  height: 3rem;
 }
 
 .guide {
   font-size: 1em;
+}
+
+.hospital {
+  background-color: #e17e65;
+}
+
+.clinic {
+  background-color: #98a4a5;
+}
+
+.doctor {
+  background-color: #509bd7;
+}
+
+.hospital img,
+.clinic img,
+.doctor img {
+  width: 15rem;
+  height: 13rem;
+}
+
+.footer-logo {
+  width: 3rem;
+  height: 3rem;
 }
