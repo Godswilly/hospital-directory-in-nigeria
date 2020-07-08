@@ -63,6 +63,57 @@
 			</ul>
 		</nav>
 	</header>
+	<main>
+		<div class="jumbotron-color my-5 py-5 jumbotron-fluid">
+        <div class="container">
+          <h6 class="mb-4 text-center font-weight-bold text-muted">
+            You can isolate by name of hospital, state, type, or by the area of specialization
+          </h6>
+          <form>
+            <div class="form-row">
+              <div class="form-group col-12 col-sm-6 col-lg-3">
+                <label for="name" class="text-uppercase">Hospital Name:*</label>
+                <input type="text" class="form-control" id="name"/>
+              </div>
+              <div class="form-group col-12 col-sm-6 col-lg-2">
+                <label for="type" class="text-uppercase">Type:</label>
+                <select class="form-control" id="type">
+                  <option value="fmc">Federal Medical Center</option>
+                  <option value="state">State General Hospital</option>
+                  <option value="Orthopedic">Orthopedic</option>
+                </select>
+              </div>
+              <div class="form-group col-12 col-sm-6 col-lg-2">
+                <label for="state" class="text-uppercase">State:</label>
+                <select class="form-control" id="state">
+                  <option value="Abia">Abia</option>
+                  <option value="Lagos">Lagos</option>
+                  <option value="Abuja">Abuja</option>
+                </select>
+              </div>
+              <div class="form-group col-12 col-sm-6 col-lg-2">
+                <label for="Specialty" class="text-uppercase">Specialty: -</label>
+                <select class="form-control" id="specialty">
+                  <option value="Surgery">Surgery</option>
+                  <option value="Pediatrics">Pediatrics</option>
+                  <option value="Emergency">Emergency Unit</option>
+                </select>
+              </div>
+              <div class="form-group col-12 col-sm-6 col-lg-1">
+                <label></label>
+                <button class="form-control mt-2 btn-primary">Search</button>
+              </div>
+              <div class="form-group col-12 col-sm-6 col-lg-2">
+                <label></label>
+                <button class="form-control mt-2 btn-warning text-white">
+                  <i class="fas fa-broom"></i> clear
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+	</main>
 
 	<footer>
      <div class="d-none d-lg-block black-color">
