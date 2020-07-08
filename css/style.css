@@ -57,6 +57,17 @@ nav {
   font-weight: bold;
 }
 
+.card-img-top,
+.card-body {
+  min-height: 35vh;
+  max-height: 35vh;
+}
+
+.card-body {
+  min-height: 40vh;
+  max-height: 40vh;
+}
+
 .danger-color {
   color: #d4564a;
 }
