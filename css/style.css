@@ -7,15 +7,10 @@
 
 body {
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 14px;
 	font-family: "lato", sans-serif;
 	line-height: 1.5;
 }
-
-/*nav img {
-  width: 60px;
-  height: 60px;
-}*/
 
 a {
   text-decoration: none;
@@ -80,6 +75,10 @@ nav {
 
 .size-2 {
   font-size: 1.5em;
+}
+
+.small-font {
+  font-size: small;
 }
 
 .nav-logo {
