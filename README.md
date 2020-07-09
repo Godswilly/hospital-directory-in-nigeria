@@ -1,8 +1,8 @@
 # Hospital-directory-in-Nigeria
 
-This project is a sample of an online directory of the hospitals in Nigeria. It's based on the prototype made by Mathew Njuguna and others on Behance.
+This project is a sample of an online directory of the hospitals in Nigeria. This project based on the prototype made by Mathew Njuguna and others on Behance.
 
-This is my HTML & CSS Capstone Project in the Microverse program.
+This project is my HTML & CSS Capstone Project in the Microverse program.
 
 This project aimed to apply all the basics HTML & CSS properties I have learned using best practices to conclude my HTML & CSS section of the Microverse software development Program.
 
@@ -20,7 +20,7 @@ This project aimed to apply all the basics HTML & CSS properties I have learned 
 
 ## Demo Video
 
-[Application Demo Video]()
+[Application Demo Video](https://drive.google.com/file/d/1B9VXAE06d4NMr2ZZPO1RVOnuTRQCEvY8/view)
 
 ## Getting Started
 
@@ -55,4 +55,4 @@ Give and ⭐️ if you like this project!
 ## Acknowledgments
 
 - UI Design Credits goes to [ Mathew Njuguna and others on Behance](https://www.behance.net/gallery/25563385/PatashuleKE)
-- This is my Microverse HTML/CSS capstone project
+- This project is my Microverse HTML/CSS capstone project
