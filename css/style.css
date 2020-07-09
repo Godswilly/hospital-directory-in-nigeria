@@ -7,7 +7,7 @@
 
 body {
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 15px;
 	font-family: "lato", sans-serif;
 	line-height: 1.5;
 }
@@ -24,22 +24,23 @@ ul {
   list-style-type: none;
 }
 
-nav {
-  background-color: #d4564a;
-  height: 10vh;
-  width: 100%;
-}
-
+nav,
 .first-search {
   background-color: #d4564a;
 }
 
 .jumbotron {
-  height: 90vh;
+  height: 85vh;
   background: url(../images/Hospital-Directory-image.jpg) no-repeat;
   background-size: cover;
   padding: 25vh 0;
   background-position: 50% 50%;
+}
+
+.btn-explore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .jumbotron-color,
@@ -59,11 +60,6 @@ nav {
 
 .card-img-top,
 .card-body {
-  min-height: 35vh;
-  max-height: 35vh;
-}
-
-.card-body {
   min-height: 40vh;
   max-height: 40vh;
 }
@@ -77,6 +73,7 @@ nav {
 }
 
 .line {
+  display: flex;
   flex: 1;
 }
 
@@ -123,4 +120,37 @@ nav {
 .footer-logo {
   width: 3rem;
   height: 3rem;
+}
+
+.details-image {
+  height: 50vh;
+  width: 100%;
+}
+
+.gap {
+  margin-top: 20vh;
+}
+
+@media screen and (min-width: 992px) {
+  .jumbotron {
+    height: 75vh;
+    padding: 12vh 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 30vw;
+  }
+
+  .jumbotron {
+    height: 65vh;
+    padding: 4vh 0;
+  }
+
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
 }
