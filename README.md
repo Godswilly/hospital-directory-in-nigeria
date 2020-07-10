@@ -20,7 +20,7 @@ This project aimed to apply all the basics HTML & CSS properties I have learned 
 
 ## Demo Video
 
-[Application Demo Video](https://drive.google.com/file/d/1B9VXAE06d4NMr2ZZPO1RVOnuTRQCEvY8/view)
+[Application Demo Video]()
 
 ## Getting Started
 
