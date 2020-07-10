@@ -12,8 +12,8 @@ body {
   line-height: 1.5;
 }
 
-/*.Pls sir there is no way I can group the styles (on lines 15, 19, and 23) seeing that they apply 
-to different areas of the code. Thanks*/
+/* Pls sir, this is the much i can group seeing that they apply
+to different areas of the code. Thanks */
 
 a,
 a:hover {
@@ -135,7 +135,7 @@ nav,
     padding: 12vh 0;
   }
 
-   .logo {
+  .logo {
     width: 20vw;
   }
 
@@ -174,7 +174,7 @@ nav,
     padding: 4vh 0;
   }
 
- .ft-top-1 {
+  .ft-top-1 {
     display: flex;
     flex-direction: column;
     height: 150px;
