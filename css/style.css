@@ -12,10 +12,10 @@ body {
   line-height: 1.5;
 }
 
-a {
-  text-decoration: none;
-}
+/*.Pls sir there is no way I can group the styles (on lines 15, 19, and 23) seeing that they apply 
+to different areas of the code. Thanks*/
 
+a,
 a:hover {
   text-decoration: none;
 }
@@ -31,7 +31,7 @@ nav,
 
 .jumbotron {
   height: 85vh;
-  background: url(../images/Hospital-Directory-image.jpg) no-repeat;
+  background: url(../images/hospital-hacking.jpg) no-repeat;
   background-size: cover;
   padding: 25vh 0;
   background-position: 50% 50%;
@@ -56,12 +56,6 @@ nav,
 .form-group label {
   font-size: small;
   font-weight: bold;
-}
-
-.card-img-top,
-.card-body {
-  min-height: 40vh;
-  max-height: 40vh;
 }
 
 .danger-color {
@@ -131,16 +125,53 @@ nav,
   margin-top: 20vh;
 }
 
-@media screen and (min-width: 992px) {
+.book {
+  margin-left: 50%;
+}
+
+@media screen and (max-width: 992px) {
   .jumbotron {
     height: 75vh;
     padding: 12vh 0;
   }
+
+   .logo {
+    width: 20vw;
+  }
+
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+/*
+  .ft-md {
+    display: flex;
+    width: 100%; 
+  }*/
 }
 
-@media screen and (min-width: 768px) {
-  .logo {
-    width: 30vw;
+@media screen and (max-width: 768px) {
+  .cent {
+    margin-left: 150px;
+    margin-bottom: 5px;
+  }
+
+  .cent1 {
+    margin-left: 125px;
+    margin-bottom: 5px;
+  }
+
+  .cent2 {
+    margin-left: 80px;
+  }
+
+  .cent3 {
+    margin-left: 55px;
+  }
+
+  .pot {
+    margin: 0 50px;
   }
 
   .jumbotron {
@@ -148,9 +179,23 @@ nav,
     padding: 4vh 0;
   }
 
-  .no-gutters > .col,
-  .no-gutters > [class*="col-"] {
-    padding-right: 5px;
-    padding-left: 5px;
+ .ft-top-1 {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 100%;
+  }
+
+  .ft-1-img {
+    align-self: center;
+    justify-self: center;
+    padding-top: 0;
+  }
+
+  .ft-mb-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
 }
