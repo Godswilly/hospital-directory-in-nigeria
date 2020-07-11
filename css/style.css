@@ -148,21 +148,21 @@ nav,
 
 @media screen and (max-width: 768px) {
   .cent {
-    margin-left: 150px;
+    margin: 0 40%;
     margin-bottom: 5px;
   }
 
   .cent1 {
-    margin-left: 125px;
+    margin: 0 40%;
     margin-bottom: 5px;
   }
 
   .cent2 {
-    margin-left: 80px;
+    text-align: center;
   }
 
   .cent3 {
-    margin-left: 55px;
+    text-align: center;
   }
 
   .pot {
