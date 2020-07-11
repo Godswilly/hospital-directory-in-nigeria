@@ -6,7 +6,7 @@ This project is my HTML & CSS Capstone Project in the Microverse program.
 
 This project aimed to apply all the basics HTML & CSS properties I have learned using best practices to conclude my HTML & CSS section of the Microverse software development Program.
 
-![screenshot](images/screenshot.PNG)
+![screenshot](images/new-screenshot.PNG)
 
 ## Built With
 
@@ -16,7 +16,7 @@ This project aimed to apply all the basics HTML & CSS properties I have learned 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Godswilly/hospital-directory-in-nigeria/ba2996ba44db0155ce77d7466f622fa33118065a/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Godswilly/hospital-directory-in-nigeria/10f9fcb8c6fedba8f8daaee80bd615aefd81b966/index.html)
 
 ## Demo Video
 
