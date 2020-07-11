@@ -16,11 +16,11 @@ This project aimed to apply all the basics HTML & CSS properties I have learned 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Godswilly/hospital-directory-in-nigeria/117529e29b646870bc0a4cc29580cf7a85122149/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Godswilly/hospital-directory-in-nigeria/efd3a008d2cca7f0f79887766f55111f3bcad50e/index.html)
 
 ## Demo Video
 
-[Application Demo Video](https://www.loom.com/share/1982899e1c144d47b67b346f01d29636)
+[Application Demo Video](https://www.loom.com/share/81463e5b614d4b4f96c4452d5eaa09bb)
 
 ## Getting Started
 
