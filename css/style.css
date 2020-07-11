@@ -26,6 +26,7 @@ ul {
 
 nav,
 .first-search {
+  width: 100%;
   background-color: #d4564a;
 }
 
@@ -148,12 +149,10 @@ nav,
 
 @media screen and (max-width: 768px) {
   .cent {
-    margin: 0 40%;
     margin-bottom: 5px;
   }
 
   .cent1 {
-    margin: 0 40%;
     margin-bottom: 5px;
   }
 
