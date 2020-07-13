@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+	<title>HOSPITAL DIRECTORY IN NIGERIA</title>
+</head>
+<body>
+
+	<header>
+		<nav class="d-flex flex-column align-items-center flex-md-row justify-content-lg-between px-md-5 py-1">
+			<a class="logo" href="./index.html">
+				<span class="text-white"><img class="nav-logo" src="images/new-medical.png" alt="hospital-logo"> MEDICALS</span>
+			</a>
+			<ul class="d-flex">
+				<li class="px-4 pt-md-2">
+					<a href="#" class="text-white">
+						<i class="fas fa-search"></i>
+						<small class="d-none d-lg-inline">HOSPITALS</small>
+					</a>
+				</li>
+				<li class="px-4 pt-md-2">
+					<a href="#" class="text-white">
+						<i class="fas fa-rss"></i>
+						<small class="d-none d-lg-inline">ABOUT</small>
+					</a>
+				</li>
+				<li class="px-4 pt-md-2">
+					<a href="#" class="text-white">
+						<i class="fas fa-user"></i>
+						<small class="d-none d-lg-inline">BLOG</small>
+					</a>
+				</li>
+				<li class="px-4 pt-md-2">
+					<a href="#" class="text-white">
+						<i class="fas fa-bars"></i>
+						<small class="d-none d-lg-inline">MORE</small>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="jumbotron-color my-5 py-5 jumbotron-fluid">
+        <div class="container">
+          <h6 class="mb-4 text-center font-weight-bold text-muted">
+            You can isolate by name of hospital, state, type, or by the area of specialization
+          </h6>
+          <form>
+            <div class="form-row">
+              <div class="form-group col-12 col-sm-6 col-lg-3">
+                <label for="name" class="text-uppercase">Hospital Name:*</label>
+                <input type="text" class="form-control" id="name"/>
+              </div>
+              <div class="form-group col-12 col-sm-6 col-lg-2">
+                <label for="type" class="text-uppercase">Type:</label>
+                <select class="form-control" id="type">
+                  <option value="fmc">Federal Medical Center</option>
+                  <option value="state">State General Hospital</option>
+                  <option value="Orthopedic">Orthopedic</option>
+                </select>
+              </div>
+              <div class="form-group col-12 col-sm-6 col-lg-2">
+                <label for="state" class="text-uppercase">State:</label>
+                <select class="form-control" id="state">
+                  <option value="Abia">Abia</option>
+                  <option value="Lagos">Lagos</option>
+                  <option value="Abuja">Abuja</option>
+                </select>
+              </div>
+              <div class="form-group col-12 col-sm-6 col-lg-2">
+                <label for="specialty" class="text-uppercase">Specialty: -</label>
+                <select class="form-control" id="specialty">
+                  <option value="Surgery">Surgery</option>
+                  <option value="Pediatrics">Pediatrics</option>
+                  <option value="Emergency">Emergency Unit</option>
+                </select>
+              </div>
+              <div class="form-group col-12 col-sm-6 col-lg-1">
+                <label></label>
+                <button class="form-control mt-2 btn-primary">Search</button>
+              </div>
+              <div class="form-group col-12 col-sm-6 col-lg-2">
+                <label></label>
+                <button class="form-control mt-2 btn-warning text-white">
+                  <i class="fas fa-broom"></i> clear
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <section class="py-4">
+        <h1 class="mb-4 text-center font-weight-bold text-muted">
+          Search result found 6 Hospital(s)
+        </h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-4 mb-4">
+              <div class="card">
+                <img src="images/equipment.jpg" class="card-img-top" alt="FMC Umuahia"/>
+                <div class="card-body">
+                  <h5 class="card-title">Federal Medical Center Umuahia </h5>
+                  <p class="card-text">Federal Medical center Umuahia is located at the capital of Abia state. There are lots of qualified doctors there.
+                  </p>
+                  <a href="./detail.html" class="btn btn-primary">DETAILS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 mb-4">
+              <div class="card">
+                <img src="images/equipment.jpg" class="card-img-top" alt="Orthopedic Enugu"/>
+                <div class="card-body">
+                  <h5 class="card-title">Orthopedic Hospital Enugu</h5>
+                  <p class="card-text">Orthopedic Hospital Enugu is a specialist hospital for the treatment of bone and spinal cord related issues.
+                  </p>
+                  <a href="./detail.html" class="btn btn-primary">DETAILS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 mb-4">
+              <div class="card">
+                <img src="images/equipment.jpg" class="card-img-top" alt="LUTH"/>
+                <div class="card-body">
+                  <h5 class="card-title">Lagos University Teaching Hospital</h5>
+                  <p class="card-text">Lagos University Teaching Hospital is an arm of the Lagos University that trains prospective medical students, carry out academic research and also treat individuals.
+                  </p>
+                  <a href="./detail.html" class="btn btn-primary">DETAILS</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-xs-12 col-md-4 mb-4">
+              <div class="card">
+                <img src="images/Life-Specialist-Hospital-Nnewi.jpg" class="card-img-top" alt="Specialist Abuja"/>
+                <div class="card-body">
+                  <h5 class="card-title">Specialist Hospital Abuja</h5>
+                  <p class="card-text">Specialist Hospital Abuja is a hospital equipped for different specializations to treat diseases of all kinds. 
+                    
+                  </p>
+                  <a href="./detail.html" class="btn btn-primary">DETAILS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 mb-4">
+              <div class="card">
+                <img src="images/surgery.jpg" class="card-img-top" alt="UNTH"/>
+                <div class="card-body">
+                  <h5 class="card-title">University of Nigeria Teaching Hospital</h5>
+                  <p class="card-text">University of Nigeria Teaching Hospital
+                    is an arm of the University of Nigeria that trains prospective medical students, carry out academic research and also treat individuals.
+                  </p>
+                  <a href="./detail.html" class="btn btn-primary">DETAILS</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 mb-4">
+              <div class="card">
+                <img src="images/ST.-ANTHONY-HOSPITAL-NNEWI.jpg" class="card-img-top" alt="UITH"/>
+                <div class="card-body">
+                  <h5 class="card-title">University of Ibadan Teaching Hospital</h5>
+                  <p class="card-text">University of Ibadan Teaching Hospital
+                    is an arm of the University of Ibadan that trains prospective medical students, carry out academic research and also treat individuals.
+
+                  </p>
+                  <a href="./detail.html" class="btn btn-primary">DETAILS</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+	</main>
+
+	<footer>
+      <div class=" d-md-block black-color">
+        <div class="container">
+          <div class="pt-4 line ft-top-1">
+            <ul class="pt-2 border-top border-bottom border-dark line">
+              <li class=" line">
+                <a class="text-white" href="#">HOME</a>
+              </li>
+              <li class="line">
+                <a class="text-white" href="#">SEARCH</a>
+              </li>
+              <li class="line">
+                <a class="text-white" href="#">ABOUT US</a>
+              </li>
+              <li class="line">
+                <a class="text-white" href="#">ADVERTISE</a>
+              </li>
+            </ul>
+            <img class="footer-logo ft-1-img" src="./images/new-medical.png" alt="new-medical logo"/>
+            <ul class="d-flex py-2 border-top border-bottom border-dark line">
+              <li class=" line">
+                <a class="pl-lg-2 px-md-2 text-white" href="#">FACEBOOK</a>
+              </li>
+              <li class="line">
+                <a class="text-white" href="#">TWITTER</a>
+              </li>
+              <li class="line">
+                <a class="text-white" href="#">BLOG</a>
+              </li>
+              <li class="line">
+                <a class="text-white" href="#">GOOGLE+</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <div class="d-md-block col-md-4">
+              <h6 class="text-white text-center text-uppercase my-4">Subscribe</h6>
+              <div class="input-group">
+                <input type="text" class="form-control rounded-right bg-dark border-0"/>
+                <div class="input-group-append d-md-block">
+                  <button class="btn btn-secondary">Search</button>
+                </div>
+              </div>
+            </div>
+            <div class="d-md-block col-md-4">
+              <h6 class="text-white text-center text-uppercase my-3">Contact</h6>
+              <p class="text-muted text-center small-font">Have a question or suggestion for improvement? <br />
+                <span class="danger-color">kalu.agukalu@gmail.com</span>
+              </p>
+            </div>
+            <div class="d-md-block col-md-4">
+              <h6 class="text-white text-center text-uppercase my-3">about</h6>
+              <p class="text-muted text-center small-font">I'm a Biotechnologies working very hard to become a full stack software developer that will compete favourably in the global market.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-2 px-md-5 d-flex justify-content-between bg-dark pt-3 ft-mb-2">
+        <ul class="d-flex">
+          <li class="pr-1">
+            <a class="text-muted" href="#"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li class="px-1 px-md-2">
+            <a href="#" class="text-muted"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="px-1 px-md-2">
+            <a href="#" class="text-muted"><i class="fab fa-youtube"></i></a>
+          </li>
+          <li class="px-1 px-md-2">
+            <a href="#" class="text-muted"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li class="px-1 px-md-2">
+            <a href="#" class="text-muted"><i class="fas fa-rss"></i></a>
+          </li>
+          <li class="px-1 px-md-2">
+            <a href="#" class="text-muted"><i class="fas fa-envelope"></i></a>
+          </li>
+        </ul>
+        <p class="pl-1 d-md-inline text-muted cent2">
+          ©2020 Microverse HTML/CSS Capstone Project built by Kalu
+        </p>
+      </div>
+  </footer>
+
+</body>
+</html>

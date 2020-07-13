@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "lato", sans-serif;
+  line-height: 1.5;
+}
+
+/* Pls sir, this is the much i can group seeing that they apply
+to different areas of the code. Thanks */
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav,
+.first-search {
+  width: 100%;
+  background-color: #d4564a;
+}
+
+.jumbotron {
+  height: 85vh;
+  background: url(../images/hospital-hacking.jpg) no-repeat;
+  background-size: cover;
+  padding: 25vh 0;
+  background-position: 50% 50%;
+}
+
+.btn-explore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron-color,
+.btn-explore {
+  background-color: rgb(224, 221, 221);
+}
+
+.search {
+  background-color: rgba(236, 228, 228, 0.8);
+}
+
+.search-label,
+.form-group label {
+  font-size: small;
+  font-weight: bold;
+}
+
+.danger-color {
+  color: #d4564a;
+}
+
+.black-color {
+  background-color: #131313;
+}
+
+.line {
+  display: flex;
+  flex: 1;
+}
+
+.size-1 {
+  font-size: 1em;
+}
+
+.size-2 {
+  font-size: 1.5em;
+}
+
+.small-font {
+  font-size: small;
+}
+
+.nav-logo {
+  width: 4rem;
+  height: 3rem;
+}
+
+.guide {
+  font-size: 1em;
+}
+
+.hospital {
+  background-color: #e17e65;
+}
+
+.clinic {
+  background-color: #98a4a5;
+}
+
+.doctor {
+  background-color: #509bd7;
+}
+
+.hospital img,
+.clinic img,
+.doctor img {
+  width: 15rem;
+  height: 13rem;
+}
+
+.footer-logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.details-image {
+  height: 50vh;
+  width: 100%;
+}
+
+.gap {
+  margin-top: 20vh;
+}
+
+.book {
+  margin-left: 85%;
+}
+
+@media screen and (max-width: 992px) {
+  .jumbotron {
+    height: 75vh;
+    padding: 12vh 0;
+  }
+
+  .logo {
+    width: 20vw;
+  }
+
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cent {
+    margin-bottom: 5px;
+  }
+
+  .cent1 {
+    margin-bottom: 5px;
+  }
+
+  .cent2 {
+    text-align: center;
+  }
+
+  .cent3 {
+    text-align: center;
+  }
+
+  .pot {
+    margin: 0 50px;
+  }
+
+  .jumbotron {
+    height: 65vh;
+    padding: 4vh 0;
+  }
+
+  .ft-top-1 {
+    display: flex;
+    flex-direction: column;
+    height: 158px;
+    width: 100%;
+  }
+
+  .ft-1-img {
+    align-self: center;
+    justify-self: center;
+  }
+
+  .ft-mb-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+}
